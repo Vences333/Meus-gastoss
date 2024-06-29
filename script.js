@@ -1,6 +1,6 @@
 document.getElementById('openSheetsButton').addEventListener('click', function () {
             // ID da planilha do Google Planilhas fornecida
-            var spreadsheetId = 'h88gpx7skmsdn';
+            var spreadsheetId = '1gk7YqZpXHsZhcMgDJoB-xoJM4aXyS7WoE5urje040cA';
             
             var webUrl = 'https://docs.google.com/spreadsheets/d/' + spreadsheetId + '/edit';
             
