@@ -1,6 +1,6 @@
 document.getElementById('openSheetsButton').addEventListener('click', function () {
             // ID da planilha do Google Planilhas fornecida
-            var spreadsheetId = '1OAd1O-wpUJYcK03Wplq2cYyVtuOSFYwHH9sgSBuHmNU';
+            var spreadsheetId = 'h88gpx7skmsdn';
             
             var webUrl = 'https://docs.google.com/spreadsheets/d/' + spreadsheetId + '/edit';
             
@@ -8,7 +8,7 @@ document.getElementById('openSheetsButton').addEventListener('click', function (
                 window.location.href = webUrl;
         });
 
-    const sheetdbUrl = 'https://sheetdb.io/api/v1/w08mrc2fae3wv'
+    const sheetdbUrl = 'https://sheetdb.io/api/v1/h88gpx7skmsdn'
     async function Enviar() {
       const item = document.getElementById('item').value;
       const valor = parseFloat(document.getElementById('valor').value);
